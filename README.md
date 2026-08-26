@@ -59,3 +59,13 @@ The leader key is **Space**. Most custom commands start by pressing `<Space>` an
 ### Swift
 
 Swift files are handled by `sourcekit-lsp` (ships with Xcode Command Line Tools, no install needed via Mason). Formatting is intentionally left to `pl-swiftformatting` rather than sourcekit-lsp.
+
+### Terminal
+
+The terminal is docked at the bottom of the screen (not floating) so it can be navigated like any other split.
+
+| Key | Action |
+| --- | --- |
+| `Ctrl+/` | Open/toggle the terminal |
+| `Ctrl+j` | Move down into the terminal (from code) |
+| `Ctrl+k` | Move up out of the terminal (back to code) |
